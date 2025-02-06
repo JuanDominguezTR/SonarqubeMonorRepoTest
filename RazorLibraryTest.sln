@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLibraryTest", "RazorLibraryTest\RazorLibraryTest.csproj", "{1893443E-8191-46D0-BA99-A3164F768647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLibraryTest2", "RazorLibraryTest2\RazorLibraryTest2.csproj", "{97B9D6CE-70D9-451A-9037-A035E4173BEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1893443E-8191-46D0-BA99-A3164F768647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1893443E-8191-46D0-BA99-A3164F768647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1893443E-8191-46D0-BA99-A3164F768647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B9D6CE-70D9-451A-9037-A035E4173BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B9D6CE-70D9-451A-9037-A035E4173BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B9D6CE-70D9-451A-9037-A035E4173BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B9D6CE-70D9-451A-9037-A035E4173BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
