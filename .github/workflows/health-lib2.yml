@@ -6,10 +6,7 @@ on:
     paths:
       - '.github/workflows/health-lib2.yml'
       - '.gitignore'
-      - 'RazorLibraryTest2/*.csproj'
-      - 'RazorLibraryTest2/*.razor*'
-      - 'RazorLibraryTest2/*.cs*'
-      - 'RazorLibraryTest2/**/*.*'
+      - 'RazorLibraryTest2/**'
   pull_request:
     types: [opened, synchronize, reopened]
 
