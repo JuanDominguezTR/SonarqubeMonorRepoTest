@@ -4,10 +4,12 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/dotnet-scan.yaml'
+      - '.github/workflows/health-lib2.yaml'
       - '.gitignore'
-      - 'RazorLibraryTest2/*.sln'
-      - 'RazorLibraryTest2/project/*.cs*'
+      - 'RazorLibraryTest2/*.csproj'
+      - 'RazorLibraryTest2/*.razor*'
+      - 'RazorLibraryTest2/*.cs*'
+      - 'RazorLibraryTest2/**/*.*'
   pull_request:
     types: [opened, synchronize, reopened]
 
