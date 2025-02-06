@@ -25,6 +25,11 @@ namespace RazorLibraryTest
             return await module.InvokeAsync<string>("showPrompt", message);
         }
 
+        public void Log()
+        {
+            Console.WriteLine("test");
+        }
+
         public async ValueTask DisposeAsync()
         {
             if (moduleTask.IsValueCreated)
