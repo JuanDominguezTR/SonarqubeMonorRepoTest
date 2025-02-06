@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/health-lib2.yaml'
+      - '.github/workflows/health-lib2.yml'
       - '.gitignore'
       - 'RazorLibraryTest2/*.csproj'
       - 'RazorLibraryTest2/*.razor*'
