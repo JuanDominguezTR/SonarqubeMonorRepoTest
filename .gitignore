@@ -1,0 +1,69 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio files
+vs/
+vscode/
+*.vc.db
+*.VC.opendb
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+PublishScripts/
+
+# Others
+node_modules/
+typings/
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/ProjectEvaluation/razorlibrarytest.metadata.v9.bin
+.vs/ProjectEvaluation/razorlibrarytest.projects.v9.bin
+.vs/ProjectEvaluation/razorlibrarytest.strings.v9.bin
+.vs/RazorLibraryTest/FileContentIndex/02c16c64-7abd-4ba7-bc55-51c4414024aa.vsidx
+.vs/RazorLibraryTest/FileContentIndex/573961e4-c447-4351-b12b-e3f2683b5bd6.vsidx
+.vs/RazorLibraryTest/FileContentIndex/d649a26c-bcb8-4ac7-98ab-c89839e6d76b.vsidx
+.vs/RazorLibraryTest/v17/.futdcache.v2
+.vs/RazorLibraryTest/v17/.wsuo
+.vs/RazorLibraryTest/v17/DocumentLayout.json
