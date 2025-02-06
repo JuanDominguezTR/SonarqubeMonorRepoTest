@@ -64,6 +64,7 @@ orleans.codegen.cs
 .vs/RazorLibraryTest/FileContentIndex/02c16c64-7abd-4ba7-bc55-51c4414024aa.vsidx
 .vs/RazorLibraryTest/FileContentIndex/573961e4-c447-4351-b12b-e3f2683b5bd6.vsidx
 .vs/RazorLibraryTest/FileContentIndex/d649a26c-bcb8-4ac7-98ab-c89839e6d76b.vsidx
-.vs/RazorLibraryTest/v17/.futdcache.v2
+.vs/RazorLibraryTest/*
 .vs/RazorLibraryTest/v17/.wsuo
 .vs/RazorLibraryTest/v17/DocumentLayout.json
+.vs/RazorLibraryTest/DesignTimeBuild/.dtbcache.v2

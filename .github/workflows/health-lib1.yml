@@ -3,8 +3,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '.github/workflows/dotnet-scan.yaml'
+      - '.gitignore'
+      - 'RazorLibraryTest/*.sln'
+      - 'RazorLibraryTest/project/*.cs*'
   pull_request:
     types: [opened, synchronize, reopened]
+
 jobs:
   build:
     name: Build and analyze
@@ -42,6 +48,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"JuanDominguezTR_SonarqubeMonorRepoTest" /o:"juandomingueztr" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          cd .\RazorLibraryTest
+          ..\.sonar\scanner\dotnet-sonarscanner begin /k:"SonarqubeMonorRepoTest" /o:"juandomingueztr" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build
-          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+          ..\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
